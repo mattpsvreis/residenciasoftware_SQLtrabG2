@@ -15,7 +15,8 @@ CREATE TABLE clientes (
 
 CREATE TABLE categorias (
 	categoria_id INTEGER PRIMARY KEY AUTOINCREMENT,
-	categoria_nome VARCHAR
+	categoria_nome VARCHAR,
+	categoria_descricao VARCHAR,
 );
 
 CREATE TABLE produtos (

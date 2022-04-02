@@ -1,5 +1,6 @@
 # E-Commerce Tradicional - Grupo 2 - Profª. Maria Luiza Mondelli
 
+<<<<<<< HEAD
 Trabalho de Banco de Dados em SQLite 3.
 
 ## Tabelas existentes:

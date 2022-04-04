@@ -27,8 +27,11 @@ CREATE TABLE produtos (
 	produto_data_de_fabricacao VARCHAR(8),
 	produto_valor_unitario INTEGER,
 	categoria_id INTEGER,
+	funcionario_id INTEGER,
 	CONSTRAINT fk_categorias
-		FOREIGN KEY (categoria_id) REFERENCES categorias(categoria_id)
+		FOREIGN KEY (categoria_id) REFERENCES categorias(categoria_id),
+	CONSTRAINT fk_funcionarios
+		FOREIGN KEY (funcionario_id) REFERENCES funcionarios(funcionario_id)
 );
 
 CREATE TABLE pedidos (

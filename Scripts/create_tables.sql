@@ -16,7 +16,7 @@ CREATE TABLE clientes (
 CREATE TABLE categorias (
 	categoria_id INTEGER PRIMARY KEY AUTOINCREMENT,
 	categoria_nome VARCHAR,
-	categoria_descricao VARCHAR,
+	categoria_descricao VARCHAR
 );
 
 CREATE TABLE produtos (
@@ -34,11 +34,18 @@ CREATE TABLE produtos (
 CREATE TABLE pedidos (
 	pedido_id INTEGER PRIMARY KEY AUTOINCREMENT,
 	pedido_data VARCHAR(8),
-	produto_id INTEGER,
-	pedido_qtd INTEGER,
 	cliente_id INTEGER,
-	CONSTRAINT fk_produtos
-		FOREIGN KEY (produto_id) REFERENCES produtos(produto_id),
 	CONSTRAINT fk_clientes
 		FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id)
+);
+
+CREATE TABLE pedidos_produto (
+	pedidos_produto_id INTEGER PRIMARY KEY AUTOINCREMENT,
+	pedido_id INTEGER,
+	produto_id INTEGER,
+	pedidos_produto_qtd INTEGER,
+	CONSTRAINT fk_produtos
+		FOREIGN KEY (produto_id) REFERENCES produtos(produto_id),
+	CONSTRAINT fk_pedidos
+		FOREIGN KEY (pedido_id) REFERENCES pedidos(pedido_id)
 )

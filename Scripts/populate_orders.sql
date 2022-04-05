@@ -9,7 +9,7 @@ INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES
 
 -- Pedido 2
 INSERT INTO pedidos (pedido_data, cliente_id) VALUES 
-('04042022', 2);
+('06042022', 2);
 
 INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES 
 (2, 12, 2),
@@ -18,7 +18,7 @@ INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES
 
 -- Pedido 3
 INSERT INTO pedidos (pedido_data, cliente_id) VALUES 
-('04042022', 3);
+('10042022', 3);
 
 INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES 
 (3, 9, 5),
@@ -27,7 +27,7 @@ INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES
 
 -- Pedido 4
 INSERT INTO pedidos (pedido_data, cliente_id) VALUES 
-('04042022', 4);
+('11042022', 4);
 
 INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES 
 (4, 5, 10),
@@ -36,7 +36,7 @@ INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES
 
 -- Pedido 5
 INSERT INTO pedidos (pedido_data, cliente_id) VALUES 
-('04042022', 5);
+('15042022', 5);
 
 INSERT INTO pedidos_produto (pedido_id, produto_id, pedidos_produto_qtd) VALUES 
 (5, 19, 2),

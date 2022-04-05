@@ -4,9 +4,9 @@ prod.produto_valor_unitario AS valor_unitario, pp.pedidos_produto_qtd * prod.pro
 FROM pedidos AS p
 INNER JOIN pedidos_produto AS pp 
 	ON pp.pedido_id = p.pedido_id 
-JOIN clientes AS c 
+INNER JOIN clientes AS c 
 	ON c.cliente_id = p.cliente_id
-JOIN produtos AS prod 
+INNER JOIN produtos AS prod 
 	ON prod.produto_id = pp.produto_id
 WHERE p.pedido_id = 1 -- Número do pedido o qual estamos recuperando.
 GROUP BY prod.produto_id;

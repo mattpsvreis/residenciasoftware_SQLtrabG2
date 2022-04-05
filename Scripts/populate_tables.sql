@@ -12,7 +12,8 @@ INSERT INTO clientes (cliente_nome, cliente_CPF, cliente_email, cliente_endereco
 ('Vinicius Henrique', '38572397564', 'viniciusbalatensaXD@email.com', 'Petrópolis - RJ, Rua Exemplar, 645', '17051993'), -- id 2
 ('Gabriel Costa', '59865428412', 'gabrielpensamtt@email.com', 'Petrópolis - RJ, Rua dos Exemplos, 986', '28011996'), -- id 3
 ('Beatriz Pimentel', '48495628547', 'beazinha_pimentel@email.com', 'Petrópolis - RJ, Rua Dezesseis de Março, 121', '05112001'), -- id 4
-('Marcos Yuri', '88891917754', 'marcostokyodrift@email.com', 'Petrópolis - RJ, Rua do Imperador, 1322', '18051999'); -- id  5
+('Marcos Yuri', '88891917754', 'marcostokyodrift@email.com', 'Petrópolis - RJ, Rua do Imperador, 1322', '18051999'), -- id  5
+('Yago Santos', '78954823621', 'yagosantos@email.com', 'Petrópolis - RJ, Rua do Imperador, 1322', '09062002'); -- id 6
 
 INSERT INTO categorias (categoria_nome, categoria_descricao) VALUES 
 ('Roupas', 'Departamento de Roupas'), -- roupas fica com id 1

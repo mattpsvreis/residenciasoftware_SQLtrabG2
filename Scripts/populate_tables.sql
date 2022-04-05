@@ -8,11 +8,11 @@ INSERT INTO funcionarios (funcionario_nome, funcionario_CPF) VALUES
 ('Ian Fell', '65489397530'); -- id 5
 
 INSERT INTO clientes (cliente_nome, cliente_CPF, cliente_email, cliente_endereco, cliente_data_de_nascimento) VALUES 
-('Hugo Braga', '98312529332', 'hugobraga@email.com', 'Petrópolis - RJ, Rua dos Exemplares, 814'), -- id 1
-('Vinicius Henrique', '38572397564', 'viniciusbalatensaXD@email.com', 'Petrópolis - RJ, Rua Exemplar, 645'), -- id 2
-('Gabriel Costa', '59865428412', 'gabrielpensamtt@email.com', 'Petrópolis - RJ, Rua dos Exemplos, 986'), -- id 3
-('Beatriz Pimentel', '48495628547', 'beazinha_pimentel@email.com', 'Petrópolis - RJ, Rua Dezesseis de Março, 121'), -- id 4
-('Marcos Yuri', '88891917754', 'marcostokyodrift@email.com', 'Petrópolis - RJ, Rua do Imperador, 1322'); -- id  5
+('Hugo Braga', '98312529332', 'hugobraga@email.com', 'Petrópolis - RJ, Rua dos Exemplares, 814', '08031992'), -- id 1
+('Vinicius Henrique', '38572397564', 'viniciusbalatensaXD@email.com', 'Petrópolis - RJ, Rua Exemplar, 645', '17051993'), -- id 2
+('Gabriel Costa', '59865428412', 'gabrielpensamtt@email.com', 'Petrópolis - RJ, Rua dos Exemplos, 986', '28011996'), -- id 3
+('Beatriz Pimentel', '48495628547', 'beazinha_pimentel@email.com', 'Petrópolis - RJ, Rua Dezesseis de Março, 121', '05112001'), -- id 4
+('Marcos Yuri', '88891917754', 'marcostokyodrift@email.com', 'Petrópolis - RJ, Rua do Imperador, 1322', '18051999'); -- id  5
 
 INSERT INTO categorias (categoria_nome, categoria_descricao) VALUES 
 ('Roupas', 'Departamento de Roupas'), -- roupas fica com id 1
@@ -31,7 +31,7 @@ INSERT INTO produtos (produto_nome, produto_descricao, produto_estoque, produto_
 ('Televisão 42 Polegadas', 'Uma TV de 42 polegadas', '30', '26022022', '2400', 2, 1),
 ('Escova de Dente Bob Esponja', 'Uma escova de dente infantil', '150', '30022022', '3', 3, 1),
 ('Chocolate Teuscher', 'Uma barra de chocolate importado da Suíça', '40', '28032022', '18', 4, 1),
-('Calçado Vans Imitação', 'Um calçado imitando a marca Vans', '80' '12032022', '80', 5, 1),
+('Calçado Vans Imitação', 'Um calçado imitando a marca Vans', '80', '12032022', '80', 5, 1),
 -- Funcionario 2
 ('Calça Legging Feminina Preta', 'Uma legging preta feminina', '200', '16032022', '65', 1, 2),
 ('Controle Remoto Sony', 'Um controle remoto universal para televisões Sony', '50', '17032022', '25', 2, 2),

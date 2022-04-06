@@ -13,3 +13,4 @@ Trabalho de Banco de Dados em SQLite 3 para a aula de BD da Residência em TIC/S
 - junction_query_example2.sql (6a)
 - count_and_groupby_query_example.sql (6b)
 - free_query_example.sql (6c)
+- Nota_Fiscal.sql (6d)
